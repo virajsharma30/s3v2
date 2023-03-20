@@ -50,7 +50,7 @@ app.post('/', upload.single('image'), (req, res) => {
   };
   s3.upload(uploadParams, (err, data) => {
     if (err) {
-      console.log('Error uploading imag:', err);
+      console.log('Error uploading mage:', err);
       res.send('Error uploading image');
     } else {
       console.log('Image uploaded successfully to:', data.Location);
@@ -61,5 +61,5 @@ app.post('/', upload.single('image'), (req, res) => {
 
 // Start the server
 app.listen(3000, () => {
-  console.log('Server listening on port 3000');
+  console.log('Server listenin port 3000');
 });
