@@ -61,5 +61,5 @@ app.post('/', upload.single('image'), (req, res) => {
 
 // Start the server
 app.listen(3000, () => {
-  console.log('Server listenin port 3000');
+  console.log('Server listening port 3000');
 });
