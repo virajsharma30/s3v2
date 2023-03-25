@@ -6,8 +6,8 @@ const path = require('path');
 
 // Set up AWS credentials and region
 AWS.config.update({
-  accessKeyId: 'AKIA37VXUPBVRFBSHJJB',
-  secretAccessKey: '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',
+  accessKeyId: '',
+  secretAccessKey: '',
 });
 
 // Create an S3 object
